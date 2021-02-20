@@ -1,8 +1,8 @@
 {
   "name": "the-best-react-carousel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The best react carousel",
-  "main": "./src/components/carousel.js",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fernando1501/react-carousel.git"
