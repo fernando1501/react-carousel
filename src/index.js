@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
-import leftIcon from './assets/icons/left.png';
-import rightIcon from './assets/icons/right.png';
+// import leftIcon from './assets/icons/left.png';
+// import rightIcon from './assets/icons/right.png';
 let Carousel = ({
     itemsPerView = 4,
     items = [],
@@ -90,13 +90,13 @@ let Carousel = ({
                         height: '35px',
                         cursor: 'pointer',
                         marginLeft: '8px',
-                    }} ref={left} src={leftIcon} />
+                    }} ref={left} src={'https://i.ibb.co/DDxyXZn/left.png'} />
                     <img style={{
                         width: '35px',
                         height: '35px',
                         cursor: 'pointer',
                         marginLeft: '8px',
-                    }} ref={right} src={rightIcon} />
+                    }} ref={right} src={'https://i.ibb.co/gPPwRXK/right.png'} />
                 </div>
             </div>
             <div style={{
