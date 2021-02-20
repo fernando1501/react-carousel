@@ -14,10 +14,29 @@
     "carousel",
     "cards"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
   "author": "Fernando Famania",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fernando1501/react-carousel/issues"
   },
-  "homepage": "https://github.com/fernando1501/react-carousel#readme"
+  "homepage": "https://github.com/fernando1501/react-carousel#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.1",
+    "webpack": "^5.23.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
-import leftIcon from '../assets/icons/left.png';
-import rightIcon from '../assets/icons/right.png';
+import leftIcon from './assets/icons/left.png';
+import rightIcon from './assets/icons/right.png';
 let Carousel = ({
     itemsPerView = 4,
     items = [],
@@ -73,7 +73,7 @@ let Carousel = ({
         }
     }, [itemsPerView, items])
     return (
-        <>
+        <React.Fragment>
             <div style={{
                 display: 'flex',
                 justifyContent: 'space-between'
@@ -122,7 +122,7 @@ let Carousel = ({
                     }
                 </div>
             </div>
-        </>
+        </React.Fragment>
     )
 }
-export default Carousel;
+export { Carousel };
