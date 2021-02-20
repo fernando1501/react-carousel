@@ -2,10 +2,10 @@
 
 Instalation
 
-`npm i --save react-carousel`
+`npm i --save the-best-react-carousel`
 
 ```
-import { Carousel } from "react-carousel";
+import { Carousel } from "the-best-react-carousel";
 
 let data = [
     { id:1 },
