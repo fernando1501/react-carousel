@@ -1,0 +1,26 @@
+{
+  "name": "react-carousel",
+  "version": "1.0.0",
+  "description": "The best react carousel",
+  "main": "./src/components/carousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando1501/react-carousel.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs",
+    "javascript",
+    "carousel",
+    "cards"
+  ],
+  "author": "Fernando Famania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando1501/react-carousel/issues"
+  },
+  "homepage": "https://github.com/fernando1501/react-carousel#readme",
+}
