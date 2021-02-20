@@ -2,7 +2,7 @@
 
 Instalation
 
-'npm i --save react-carousel'
+`npm i --save react-carousel`
 
 ```
 import { Carousel } from "react-carousel";
