@@ -1,6 +1,6 @@
 {
   "name": "the-best-react-carousel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The best react carousel",
   "main": "./build/index.js",
   "repository": {
