@@ -4,7 +4,7 @@ Instalation
 
 `npm i --save the-best-react-carousel`
 
-```
+```js script
 import { Carousel } from "the-best-react-carousel";
 
 let data = [

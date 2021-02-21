@@ -1,6 +1,6 @@
 {
   "name": "the-best-react-carousel",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The best react carousel",
   "main": "./build/index.js",
   "repository": {
@@ -29,6 +29,8 @@
     "react": "^15.5.4"
   },
   "dependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
